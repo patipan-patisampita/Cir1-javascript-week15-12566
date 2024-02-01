@@ -47,8 +47,28 @@
               <li><a class="dropdown-item" href="#">แผนที่</a></li>
             </ul>
           </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              เผยแพร่ผลงาน
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ผลงานนักเรียน-นักศึกษา</a></li>
+              <li><a class="dropdown-item" href="#">ผลงานครู-อาจารย์</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ระบบบริการ
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ระบบฐานข้อมูล นักเรียน-นักศึกษา</a></li>
+              <li><a class="dropdown-item" href="#">ระบบสมัคร นักเรียน-นักศึกษาออนไลน์</a></li>
+            </ul>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" aria-disabled="true" href="#">ติดต่อเรา</a>
+            <a class="nav-link" aria-disabled="true" href="#">เว็บอื่นๆ</a>
           </li>
         </ul>
       </div>
