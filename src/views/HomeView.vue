@@ -1,3 +1,10 @@
+<script setup>
+import { toast } from 'vue3-toastify';
+import 'vue3-toastify/dist/index.css';
+toast("ยินดีต้อนรับ สาขาเทคโนโลยีสารสนเทศ");
+
+</script>
+
 <template>
     <div class="container my-5">
         <div class="row">
@@ -36,10 +43,6 @@
         </div>
     </div>
 </template>
-
-<script setup>
-
-</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
