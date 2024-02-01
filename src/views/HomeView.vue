@@ -2,7 +2,7 @@
     <div class="container my-5">
         <div class="row">
             <div class="col-md-4">
-                <div class="card shadow p-0" style="width: 18rem;">
+                <div class="card shadow p-0">
                     <img src="https://positioningmag.com/wp-content/uploads/2018/01/4_esport.png" class="card-img-top"
                         alt="...">
                     <div class="card-body">
