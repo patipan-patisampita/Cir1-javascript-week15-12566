@@ -77,4 +77,11 @@
   <router-view />
 </template>
 
-<style lang="scss" scoped></style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+.navbar{
+  font-family: 'Sarabun', sans-serif;
+}
+
+</style>
