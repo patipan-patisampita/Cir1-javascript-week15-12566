@@ -10,6 +10,7 @@ toast.info("ยินดีต้อนรับ สาขาเทคโนโ�
 const notify = () => {
     toast.success("Wow so easy !", {
         autoClose: 2000,
+        position: toast.POSITION.TOP_RIGHT
     }); // ToastOptions
     return { notify };
 }
