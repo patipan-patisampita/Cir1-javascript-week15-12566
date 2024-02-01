@@ -3,10 +3,14 @@
         <div class="card shadow p-0" style="width: 18rem;">
             <img src="https://positioningmag.com/wp-content/uploads/2018/01/4_esport.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Home Page</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                    content.</p>
-                <a href="#" class="btn btn-primary">Read...</a>
+                <h5 class="card-title">สาขาเทคโนโลยีสารสนเทศ</h5>
+                <p class="card-text">
+                    เพื่อให้สามารถปฏิบัติงานในอาชีพนักพัฒนาซอฟต์แวร์คอมพิวเตอร์หรือ นักพัฒนาระบบเครือข่าย
+                    คอมพิวเตอร์และความปลอดภัย หรือ นักพัฒนาระบบสมองกลฝังตัวและไอโอที หรือ นักพัฒนา
+                    คอมพิวเตอร์กราฟิกเกมส์และแอนิเมชั่น ในสถานประกอบการและประกอบอาชีพอิสระ รวมทั้งการ
+                    ใช้ความรู้และทักษะเป็นพื้นฐานในการศึกษาต่อในระดับสูงขึ้นได้
+                </p>
+                <a href="http://www.trattc.ac.th:4001/" target="_blank" class="btn btn-primary">Read...</a>
             </div>
         </div>
     </div>
