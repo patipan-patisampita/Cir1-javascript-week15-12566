@@ -10,7 +10,7 @@
                     คอมพิวเตอร์กราฟิกเกมส์และแอนิเมชั่น ในสถานประกอบการและประกอบอาชีพอิสระ รวมทั้งการ
                     ใช้ความรู้และทักษะเป็นพื้นฐานในการศึกษาต่อในระดับสูงขึ้นได้
                 </p>
-                <a href="http://www.trattc.ac.th:4001/" target="_blank" class="btn btn-primary">Read...</a>
+                <a href="http://www.trattc.ac.th:4001/" target="_blank" class="btn btn-primary">อ่านต่อ...</a>
             </div>
         </div>
     </div>
@@ -26,8 +26,10 @@
 h5 {
     font-family: 'Sarabun', sans-serif;
 }
-p{
-  font-family: 'Sarabun', sans-serif;
-  font-size: 14px; 
+
+p,
+a {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 15px;
 }
 </style>
