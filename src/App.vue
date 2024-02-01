@@ -6,7 +6,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background: #7f00ff;">
     <div class="container">
       <a class="navbar-brand" href="#">นายมาร์ก</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -19,13 +20,30 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              หลักสูตร
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ระดับประกาศนียบัตรวิชาชีพ(ปวช.)</a></li>
+              <li><a class="dropdown-item" href="#">ระดับประกาศนียบัตรวิชาชีพชั้นสูง(ปวส.)</a></li>
+              <li><a class="dropdown-item" href="#">ระดับปริญญาตรี(ป.ตรี)</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">หลักสูตรอื่นๆ</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               เกี่ยวกับเรา
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">ประวัติความเป็นมา</a></li>
               <li><a class="dropdown-item" href="#">วิสัยทัศน์</a></li>
               <li><a class="dropdown-item" href="#">บุคลากร</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
               <li><a class="dropdown-item" href="#">แผนที่</a></li>
             </ul>
           </li>
@@ -39,6 +57,4 @@
   <router-view />
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
