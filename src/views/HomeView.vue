@@ -1,7 +1,18 @@
 <script setup>
 import { toast } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
-toast("ยินดีต้อนรับ สาขาเทคโนโลยีสารสนเทศ");
+
+toast.info("ยินดีต้อนรับ สาขาเทคโนโลยีสารสนเทศ", {
+    autoClose: 2000,
+    position:toast.POSITION.TOP_CENTER
+});
+
+const notify = () => {
+    toast.success("Wow so easy !", {
+        autoClose: 2000,
+    }); // ToastOptions
+    return { notify };
+}
 
 </script>
 
@@ -20,7 +31,7 @@ toast("ยินดีต้อนรับ สาขาเทคโนโลย
                             คอมพิวเตอร์กราฟิกเกมส์และแอนิเมชั่น ในสถานประกอบการและประกอบอาชีพอิสระ รวมทั้งการ
                             ใช้ความรู้และทักษะเป็นพื้นฐานในการศึกษาต่อในระดับสูงขึ้นได้
                         </p>
-                        <a href="http://www.trattc.ac.th:4001/" target="_blank" class="btn btn-primary">อ่านต่อ...</a>
+                        <a href="http://www.trattc.ac.th:4001/" target="_blank" class="btn btn-primary" @click="notify">อ่านต่อ...</a>
                     </div>
                 </div>
             </div>
