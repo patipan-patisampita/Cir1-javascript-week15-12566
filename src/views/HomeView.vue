@@ -20,4 +20,14 @@
 
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+h5 {
+    font-family: 'Sarabun', sans-serif;
+}
+p{
+  font-family: 'Sarabun', sans-serif;
+  font-size: 14px; 
+}
+</style>
